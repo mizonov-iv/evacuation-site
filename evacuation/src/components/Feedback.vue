@@ -1,20 +1,20 @@
 <template>
-  <div class="container d-flex flex-column align-items-center mt-3">
-    <h3>Отзывы о работе</h3>
-    <div class="d-flex d-flex flex-column flex-md-row align-items-center ">
-      <div class="feedback-item mt-4 col-10 col-md-4">
+  <div class="container d-flex flex-column align-items-center mt-5">
+    <h3 class="text-center">Отзывы о работе</h3>
+    <div class="d-flex flex-column flex-md-row align-items-center align-items-md-baseline">
+      <div class="d-flex flex-column align-items-center feedback-item mt-4 col-10 col-md-4">
         <img class="feedback-item__img d-block mx-auto rounded-circle" src="../assets/feddback1.jpg" alt="feedback-1">
         <p class="feedback-item__name text-center mt-2">Сергей</p>
         <p class="feedback-item__subheader text-center">Время заполнения и цены</p>
         <p class="feedback-item__description text-center">Оформлял страховку через Авангард. После ДТП сразу позвонил им, быстро оформили европротокол и оценили ущерб.</p>
       </div>
-      <div class="feedback-item mt-4 col-10 col-md-4">
+      <div class="d-flex flex-column align-items-center feedback-item mt-4 col-10 col-md-4">
         <img class="feedback-item__img d-block mx-auto rounded-circle" src="../assets/feddback2.jpg" alt="feedback-1">
         <p class="feedback-item__name text-center mt-2">Ольга</p>
         <p class="feedback-item__subheader text-center">Помогли оформить ДТП</p>
         <p class="feedback-item__description text-center">Растерялась после аварии, знакомые посоветовали обратиться в Авангард. Комиссар Сергей помог составить документы и подать заявление в страховую! Уже ждем выплату, очень благодарна!</p>
       </div>
-      <div class="feedback-item mt-4 col-10 col-md-4">
+      <div class="d-flex flex-column align-items-center feedback-item mt-4 col-10 col-md-4">
         <img class="feedback-item__img d-block mx-auto rounded-circle" src="../assets/feddback3.jpg" alt="feedback-1">
         <p class="feedback-item__name text-center mt-2">Валерий</p>
         <p class="feedback-item__subheader text-center">Надежно и быстро</p>

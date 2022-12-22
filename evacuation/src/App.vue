@@ -2,6 +2,8 @@
   <Navbar/>
   <ContactForm/>
   <About/>
+  <Benefits/>
+  <HowItWorks/>
   <Feedback/>
   <Footer/>
 </template>
@@ -12,6 +14,8 @@ import ContactForm from "@/components/ContactForm";
 import About from "@/components/About";
 import Feedback from "@/components/Feedback";
 import Footer from "@/components/Footer";
+import Benefits from "@/components/Benefits";
+import HowItWorks from "@/components/HowItWorks";
 
 export default {
   name: 'App',
@@ -20,7 +24,9 @@ export default {
     ContactForm,
     About,
     Feedback,
-    Footer
+    Footer,
+    Benefits,
+    HowItWorks
   }
 }
 </script>

@@ -1,7 +1,9 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg nav-bg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Аварийные комиссары</a>
+      <div class="navbar-brand footer__logo mx-auto">
+        <img class="d-block w-100" src="../assets/icons/logo.png" alt="">
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,7 +40,7 @@
           </li>
         </ul>
 
-        <button class="btn btn-outline-success" type="submit">Заказать звонок</button>
+        <a class="d-block col-5 col-md-2 mx-auto btn btn-outline-dark" href="tel:+73432077838">Позвонить</a>
       </div>
     </div>
   </nav>
@@ -51,5 +53,11 @@ export default {
 </script>
 
 <style scoped>
-
+.footer__logo {
+  width: 200px;
+  height: 45px;
+}
+.nav-bg {
+  background: rgba(130,130,130,0.3);
+}
 </style>

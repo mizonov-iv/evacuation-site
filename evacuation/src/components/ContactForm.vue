@@ -5,20 +5,22 @@
       <div class="row">
 
         <div class="col-12 col-md-7">
-          <h1>Служба аварийных комиссаров в Екатеринбурге</h1>
-          <ul class="mt-2 mt-md-5">
-            <li>Вызов комиссара при ДТП круглосуточно</li>
-            <li>Приедем быстро</li>
-            <li>Оформим все документы на месте ДТП</li>
-            <li>Поможем получить страховое возмещение по ОСАГО</li>
-            <li>Сэкономим Ваше время</li>
+          <h1 class="fw-bold">Служба аварийных комиссаров в Екатеринбурге</h1>
+          <ul class="mt-2 mt-md-5 list-unstyled text-light fw-bold">
+            <li class="mt-1 mt-md-3">Вызов комиссара при ДТП круглосуточно</li>
+            <li class="mt-1 mt-md-3">Приедем быстро</li>
+            <li class="mt-1 mt-md-3">Оформим все документы на месте ДТП</li>
+            <li class="mt-1 mt-md-3">Поможем получить страховое возмещение по ОСАГО</li>
+            <li class="mt-1 mt-md-3">Сэкономим Ваше время</li>
           </ul>
         </div>
 
-        <div class="col-12 col-md-3 mx-auto contact-bg">
-          <h2>Вызвать комиссара</h2>
-          <a href="" class="h3">+7 (343) 207-78-38</a>
-          <p>Звоните для мгновенного выезда или закажите обратный звонок</p>
+        <a class="d-md-none col-7 mx-auto btn btn-dark" href="tel:+73432077838">Обратиться за помощью</a>
+
+        <div class="d-none d-md-block col-md-4 mx-auto contact-bg">
+          <h2  class="text-light text-center">Вызвать комиссара</h2>
+          <a href="" class="h3 text-decoration-none text-light text-center">+7 (343) 207-78-38</a>
+          <p class="text-light text-center">Звоните для мгновенного выезда или закажите обратный звонок</p>
 
           <form>
             <div class="mb-3">
@@ -30,7 +32,7 @@
             <button type="submit" class="btn btn-primary w-100">Вызвать</button>
           </form>
 
-          <p>Нажимая кнопку "Вызвать" Вы соглашаетесь с условиями обработки персональных данных</p>
+          <p class="text-light text-center mt-2">Нажимая кнопку "Вызвать" Вы соглашаетесь с условиями обработки персональных данных</p>
         </div>
       </div>
 
