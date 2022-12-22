@@ -5,6 +5,7 @@
   <Benefits/>
   <HowItWorks/>
   <Feedback/>
+  <CallMe/>
   <Footer/>
 </template>
 
@@ -16,6 +17,7 @@ import Feedback from "@/components/Feedback";
 import Footer from "@/components/Footer";
 import Benefits from "@/components/Benefits";
 import HowItWorks from "@/components/HowItWorks";
+import CallMe from "@/components/CallMe.vue";
 
 export default {
   name: 'App',
@@ -26,7 +28,8 @@ export default {
     Feedback,
     Footer,
     Benefits,
-    HowItWorks
+    HowItWorks,
+    CallMe
   }
 }
 </script>
