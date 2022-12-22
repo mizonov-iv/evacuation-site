@@ -3,8 +3,8 @@
     <h3 class="text-center">Ключевые достоинства аварийного комиссара</h3>
     <p class="text-center">Экономим Ваше время и берем всю головную боль на себя!</p>
 
-    <div class="row mb-3">
-      <div class="d-flex align-items-baseline col-md-5">
+    <div class="row mb-3 mx-auto">
+      <div class="d-flex col-md-5 ">
         <div class="about-icon">
           <img src="../assets/icons/location.svg" alt="location">
         </div>

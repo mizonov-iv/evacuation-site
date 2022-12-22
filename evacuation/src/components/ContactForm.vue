@@ -53,7 +53,7 @@ export default {
   background-repeat: no-repeat;
 }
 .contact-bg {
-  background: lightgrey;
+  background: rgba(130,130,130,0.5);
   padding: 15px 15px;
 }
 </style>
