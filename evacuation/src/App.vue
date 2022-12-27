@@ -1,12 +1,18 @@
 <template>
-  <Navbar/>
-  <ContactForm/>
-  <About/>
-  <Benefits/>
-  <HowItWorks/>
-  <Feedback/>
-  <CallMe/>
-  <Footer/>
+  <transition appear appear-active-class="fade-enter-active">
+    <div>
+      <Navbar/>
+      <ContactForm/>
+      <CallMe class="d-md-none"/>
+      <About/>
+      <Benefits/>
+      <HowItWorks/>
+      <Feedback/>
+      <Footer/>
+
+    </div>
+  </transition>
+
 </template>
 
 <script>
@@ -18,6 +24,7 @@ import Footer from "@/components/Footer";
 import Benefits from "@/components/Benefits";
 import HowItWorks from "@/components/HowItWorks";
 import CallMe from "@/components/CallMe.vue";
+import SuccessPopUp from "@/components/SuccessPopUp";
 
 export default {
   name: 'App',
@@ -29,8 +36,12 @@ export default {
     Footer,
     Benefits,
     HowItWorks,
-    CallMe
-  }
+    CallMe,
+    SuccessPopUp
+  },
+  data: () => ({
+    showSuccessPopUp: false
+  })
 }
 </script>
 

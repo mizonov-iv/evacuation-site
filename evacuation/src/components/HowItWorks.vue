@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column align-content-center align-items-center mx-auto mt-5 p-2">
-    <h3 class="text-center">Как мы помогаем при ДТП</h3>
+    <p class="text-center display-5">Как мы помогаем при ДТП</p>
     <p class="text-center h6 mt-3">Принцип работы аварийных комиссаров компании Авангард196</p>
     <div class="d-flex flex-column flex-md-row justify-content-md-between mt-5">
       <div class="d-flex flex-column align-items-center col-md-3">

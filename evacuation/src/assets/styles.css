@@ -1,0 +1,12 @@
+
+.fade-enter-active {
+    animation: go 1.5s;
+}
+@keyframes go {
+    from {
+       opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

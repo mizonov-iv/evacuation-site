@@ -1,6 +1,6 @@
 <template>
   <div class="container d-flex flex-column align-items-center mt-5">
-    <h3 class="text-center">Отзывы о работе</h3>
+    <p class="text-center display-5">Отзывы о работе</p>
     <div class="d-flex flex-column flex-md-row align-items-center align-items-md-baseline">
       <div class="d-flex flex-column align-items-center feedback-item mt-4 col-10 col-md-4">
         <img class="feedback-item__img d-block mx-auto rounded-circle" src="../assets/feddback1.jpg" alt="feedback-1">
