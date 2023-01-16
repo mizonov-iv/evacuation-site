@@ -58,7 +58,8 @@ export default {
         text: message
       })
 
-
+      this.form.name = ""
+      this.form.phone = ""
     }
   }
 }

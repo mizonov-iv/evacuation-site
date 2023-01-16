@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-7">
-          <h1 class="fw-bold display-5">Служба аварийных комиссаров в Екатеринбурге</h1>
+          <h1 class="fw-bold text-light display-5">Служба аварийных комиссаров в Екатеринбурге</h1>
           <ul class="mt-2 mt-md-5 list-unstyled text-light fw-bold">
             <li class="mt-1 mt-md-1 fs-4">Вызов комиссара при ДТП круглосуточно</li>
             <li class="mt-1 mt-md-1 fs-4">Приедем быстро</li>
@@ -12,7 +12,7 @@
             <li class="mt-1 mt-md-1 fs-4">Сэкономим Ваше время</li>
           </ul>
         </div>
-        <a class="d-md-none col-9 mx-auto btn btn-dark mb-3 fs-4" href="tel:+73432077838">Обратиться за помощью</a>
+        <a class="d-md-none col-9 mx-auto btn btn-danger mb-3 fs-4" href="tel:+73432077838">Обратиться за помощью</a>
         <div class="d-none d-md-block col-md-4 mx-auto contact-bg rounded">
           <h2  class="text-light text-center">Вызвать комиссара</h2>
           <a href="tel:+73432077838" class="d-block fs-3 text-decoration-none text-light text-center">+7 (343) 207-78-38</a>
@@ -111,7 +111,7 @@ export default {
 
 <style scoped>
 .main-wrapper {
-  background-image: url("../assets/maing-bg.jpg");
+  background-image: url("../assets/bg.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
