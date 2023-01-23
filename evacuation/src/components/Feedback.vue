@@ -2,7 +2,7 @@
   <div class="container d-flex flex-column align-items-center mt-5">
     <p class="text-center display-5">Отзывы о работе</p>
     <div class="d-flex flex-column flex-md-row flex-md-wrap align-items-center align-items-md-baseline">
-      <div class="d-flex flex-column align-items-center feedback-item mt-4 col-10 col-md-6">
+      <div class="d-flex flex-column align-items-center mt-4 col-10 col-md-6">
         <img class="feedback-item__img d-block mx-auto rounded-circle" src="../assets/feddback1.jpeg" alt="feedback-1">
         <p class="feedback-item__name text-center mt-2">Евгений</p>
         <p class="feedback-item__subheader text-center">Все детально и доходчиво разъяснялось</p>
@@ -15,8 +15,7 @@
           Спасибо большое, ребят.
         </p>
       </div>
-
-      <div class="d-flex flex-column align-items-center feedback-item mt-4 col-10 col-md-6">
+      <div class="d-flex flex-column align-items-center mt-4 col-10 col-md-6">
         <img class="feedback-item__img d-block mx-auto rounded-circle" src="../assets/feddback2.jpeg" alt="feedback-1">
         <p class="feedback-item__name text-center mt-2">Дмитрий</p>
         <p class="feedback-item__subheader text-center">Все было максимально комфортно</p>
@@ -30,8 +29,7 @@
           Однако всё было максимально комфортно и приятно удивлен.
         </p>
       </div>
-
-      <div class="d-flex flex-column align-items-center feedback-item mt-4 col-10 col-md-4">
+      <div class="d-flex flex-column align-items-center mt-4 col-10 col-md-4">
         <img class="feedback-item__img d-block mx-auto rounded-circle" src="../assets/feddback3.jpg" alt="feedback-1">
         <p class="feedback-item__name text-center mt-2">Сергей</p>
         <p class="feedback-item__subheader text-center">Время заполнения и цены</p>
@@ -39,8 +37,7 @@
           Оформлял страховку через Авангард. После ДТП сразу позвонил им, быстро оформили европротокол и оценили ущерб.
         </p>
       </div>
-
-      <div class="d-flex flex-column align-items-center feedback-item mt-4 col-10 col-md-4">
+      <div class="d-flex flex-column align-items-center mt-4 col-10 col-md-4">
         <img class="feedback-item__img d-block mx-auto rounded-circle" src="../assets/feddback4.jpg" alt="feedback-1">
         <p class="feedback-item__name text-center mt-2">Ольга</p>
         <p class="feedback-item__subheader text-center">Помогли оформить ДТП</p>
@@ -48,8 +45,7 @@
           Растерялась после аварии, знакомые посоветовали обратиться в Авангард. Комиссар Сергей помог составить документы и подать заявление в страховую! Уже ждем выплату, очень благодарна!
         </p>
       </div>
-
-      <div class="d-flex flex-column align-items-center feedback-item mt-4 col-10 col-md-4">
+      <div class="d-flex flex-column align-items-center mt-4 col-10 col-md-4">
         <img class="feedback-item__img d-block mx-auto rounded-circle" src="../assets/feddback5.jpg" alt="feedback-1">
         <p class="feedback-item__name text-center mt-2">Валерий</p>
         <p class="feedback-item__subheader text-center">Надежно и быстро</p>
@@ -57,8 +53,6 @@
           Приехали НОЧЬЮ и оформили ДТП. В ГАИ были до момента, пока не получили справку!
         </p>
       </div>
-
-
     </div>
   </div>
 </template>
@@ -70,9 +64,6 @@ export default {
 </script>
 
 <style scoped>
-.feedback-item {
-
-}
 .feedback-item__img {
   width: 130px;
   height: 130px;
